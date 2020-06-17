@@ -91,6 +91,8 @@ Appropriately labels the data set with descriptive variable names.
    1. Remove the ending "-"
    1. *activity* to *Activity*
    1. *subject* to *Subject*
+   
+Example of the final result: *Time-Body-Accelerometer-Mean-X*
 
 ### Task 5
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
