@@ -72,7 +72,7 @@ dt_work_data[,activity:=  mapvalues( activity, unlist(dt_activities[,1]), unlist
 # TASK 4 - Appropriately labels the data set with descriptive variable names.
 #------------------------------------------------------------------------------------------------------------------#
 names_data <- names(dt_work_data)
-
+ 
 # Remove "(" , ")" and "-"
 names_data <- gsub("[\\(\\)-]", "", names_data)
 
@@ -105,4 +105,5 @@ dt_tidy_data <- dt_work_data %>%
                 group_by(Subject, Activity) %>%
                 summarise_all(funs(mean))
 
-fwrite(dt_tidy_data, "Tidy-Data.csv")
+write.table(dt_tidy_data, "tidy_data.txt", row.names = FALSE)
+
