@@ -28,7 +28,7 @@ Create one R script called run_analysis.R that does the following.
     * The CodeBook describes the variables, the data files and the logic used in the script
 1. run_analysis.R
     * The R script used to generate the final data set
-1. Tidy-Data.csv
+1. tidy_data.txt
     * The final result of the project
     
 ## Additional comments
