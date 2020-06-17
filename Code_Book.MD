@@ -98,4 +98,4 @@ Example of the final result: *Time-Body-Accelerometer-Mean-X*
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 1. Group the data table by subject and activity and then calculate the average
-1. Save the result in the file Tidy-Data.csv
+1. Save the result in the file tidy_data.txt
